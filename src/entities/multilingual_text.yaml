@@ -1,0 +1,1151 @@
+entities:
+- name: multilingual_text
+  namespace: laplacian.common
+
+  properties:
+  - name: "ab"
+    description: In Abkhazian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "aa"
+    description: In Afar
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "af"
+    description: In Afrikaans
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ak"
+    description: In Akan
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "sq"
+    description: In Albanian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "am"
+    description: In Amharic
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ar"
+    description: In Arabic
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "an"
+    description: In Aragonese
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "hy"
+    description: In Armenian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "as"
+    description: In Assamese
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "av"
+    description: In Avaric
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ae"
+    description: In Avestan
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ay"
+    description: In Aymara
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "az"
+    description: In Azerbaijani
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "bm"
+    description: In Bambara
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ba"
+    description: In Bashkir
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "eu"
+    description: In Basque
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "be"
+    description: In Belarusian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "bn"
+    description: In Bengali (Bangla)
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "bh"
+    description: In Bihari
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "bi"
+    description: In Bislama
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "bs"
+    description: In Bosnian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "br"
+    description: In Breton
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "bg"
+    description: In Bulgarian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "my"
+    description: In Burmese
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ca"
+    description: In Catalan
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ch"
+    description: In Chamorro
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ce"
+    description: In Chechen
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ny"
+    description: In Chichewa, Chewa, Nyanja
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "zh"
+    description: In Chinese
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "zh_hans"
+    description: In Chinese (Simplified)
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "zh_hant"
+    description: In Chinese (Traditional)
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "cv"
+    description: In Chuvash
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "kw"
+    description: In Cornish
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "co"
+    description: In Corsican
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "cr"
+    description: In Cree
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "hr"
+    description: In Croatian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "cs"
+    description: In Czech
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "da"
+    description: In Danish
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "dv"
+    description: In Divehi, Dhivehi, Maldivian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "nl"
+    description: In Dutch
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "dz"
+    description: In Dzongkha
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "en"
+    description: In English
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "eo"
+    description: In Esperanto
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "et"
+    description: In Estonian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ee"
+    description: In Ewe
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "fo"
+    description: In Faroese
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "fj"
+    description: In Fijian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "fi"
+    description: In Finnish
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "fr"
+    description: In French
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ff"
+    description: In Fula, Fulah, Pulaar, Pular
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "gl"
+    description: In Galician
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "gd"
+    description: In Gaelic (Scottish)
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "gv"
+    description: In Gaelic (Manx)
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ka"
+    description: In Georgian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "de"
+    description: In German
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "el"
+    description: In Greek
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "kl"
+    description: In Greenlandic
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "gn"
+    description: In Guarani
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "gu"
+    description: In Gujarati
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ht"
+    description: In Haitian Creole
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ha"
+    description: In Hausa
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "he"
+    description: In Hebrew
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "hz"
+    description: In Herero
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "hi"
+    description: In Hindi
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ho"
+    description: In Hiri Motu
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "hu"
+    description: In Hungarian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "is"
+    description: In Icelandic
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "io"
+    description: In Ido
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ig"
+    description: In Igbo
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "id_in"
+    description: In Indonesian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ia"
+    description: In Interlingua
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ie"
+    description: In Interlingue
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "iu"
+    description: In Inuktitut
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ik"
+    description: In Inupiak
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ga"
+    description: In Irish
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "it"
+    description: In Italian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ja"
+    description: In Japanese
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "jv"
+    description: In Javanese
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "kl"
+    description: In Kalaallisut, Greenlandic
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "kn"
+    description: In Kannada
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "kr"
+    description: In Kanuri
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ks"
+    description: In Kashmiri
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "kk"
+    description: In Kazakh
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "km"
+    description: In Khmer
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ki"
+    description: In Kikuyu
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "rw"
+    description: In Kinyarwanda (Rwanda)
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "rn"
+    description: In Kirundi
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ky"
+    description: In Kyrgyz
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "kv"
+    description: In Komi
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "kg"
+    description: In Kongo
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ko"
+    description: In Korean
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ku"
+    description: In Kurdish
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "kj"
+    description: In Kwanyama
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "lo"
+    description: In Lao
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "la"
+    description: In Latin
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "lv"
+    description: In Latvian (Lettish)
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "li"
+    description: In Limburgish ( Limburger)
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ln"
+    description: In Lingala
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "lt"
+    description: In Lithuanian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "lu"
+    description: In Luga-Katanga
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "lg"
+    description: In Luganda, Ganda
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "lb"
+    description: In Luxembourgish
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "gv"
+    description: In Manx
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "mk"
+    description: In Macedonian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "mg"
+    description: In Malagasy
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ms"
+    description: In Malay
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ml"
+    description: In Malayalam
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "mt"
+    description: In Maltese
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "mi"
+    description: In Maori
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "mr"
+    description: In Marathi
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "mh"
+    description: In Marshallese
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "mo"
+    description: In Moldavian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "mn"
+    description: In Mongolian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "na"
+    description: In Nauru
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "nv"
+    description: In Navajo
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ng"
+    description: In Ndonga
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "nd"
+    description: In Northern Ndebele
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ne"
+    description: In Nepali
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "false"
+    description: In Norwegian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "nb"
+    description: In Norwegian bokmål
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "nn"
+    description: In Norwegian nynorsk
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ii"
+    description: In Nuosu
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "oc"
+    description: In Occitan
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "oj"
+    description: In Ojibwe
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "cu"
+    description: In Old Church Slavonic, Old Bulgarian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "or"
+    description: In Oriya
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "om"
+    description: In Oromo (Afaan Oromo)
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "os"
+    description: In Ossetian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "pi"
+    description: In Pāli
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ps"
+    description: In Pashto, Pushto
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "fa"
+    description: In Persian (Farsi)
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "pl"
+    description: In Polish
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "pt"
+    description: In Portuguese
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "pa"
+    description: In Punjabi (Eastern)
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "qu"
+    description: In Quechua
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "rm"
+    description: In Romansh
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ro"
+    description: In Romanian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ru"
+    description: In Russian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "se"
+    description: In Sami
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "sm"
+    description: In Samoan
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "sg"
+    description: In Sango
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "sa"
+    description: In Sanskrit
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "sr"
+    description: In Serbian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "sh"
+    description: In Serbo-Croatian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "st"
+    description: In Sesotho
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "tn"
+    description: In Setswana
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "sn"
+    description: In Shona
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ii"
+    description: In Sichuan Yi
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "sd"
+    description: In Sindhi
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "si"
+    description: In Sinhalese
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ss"
+    description: In Siswati
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "sk"
+    description: In Slovak
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "sl"
+    description: In Slovenian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "so"
+    description: In Somali
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "nr"
+    description: In Southern Ndebele
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "es"
+    description: In Spanish
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "su"
+    description: In Sundanese
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "sw"
+    description: In Swahili (Kiswahili)
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ss"
+    description: In Swati
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "sv"
+    description: In Swedish
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "tl"
+    description: In Tagalog
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ty"
+    description: In Tahitian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "tg"
+    description: In Tajik
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ta"
+    description: In Tamil
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "tt"
+    description: In Tatar
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "te"
+    description: In Telugu
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "th"
+    description: In Thai
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "bo"
+    description: In Tibetan
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ti"
+    description: In Tigrinya
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "to"
+    description: In Tonga
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ts"
+    description: In Tsonga
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "tr"
+    description: In Turkish
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "tk"
+    description: In Turkmen
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "tw"
+    description: In Twi
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ug"
+    description: In Uyghur
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "uk"
+    description: In Ukrainian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ur"
+    description: In Urdu
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "uz"
+    description: In Uzbek
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "ve"
+    description: In Venda
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "vi"
+    description: In Vietnamese
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "vo"
+    description: In Volapük
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "wa"
+    description: In Wallon
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "cy"
+    description: In Welsh
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "wo"
+    description: In Wolof
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "fy"
+    description: In Western Frisian
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "xh"
+    description: In Xhosa
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "yi_ji"
+    description: In Yiddish
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "yo"
+    description: In Yoruba
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "za"
+    description: In Zhuang, Chuang
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  - name: "zu"
+    description: In Zulu
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""

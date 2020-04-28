@@ -1,0 +1,11 @@
+value_domain_types:
+- name: language
+  namespace: laplacian.common
+  description: ISO-639-1 Language code
+  type: string
+  domain:
+    choices:
+    {{#each language_code_list as |code| ~}}
+    - label: "{{code.label}}"
+      value: "{{code.value}}"
+    {{/each}}

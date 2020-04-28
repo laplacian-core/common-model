@@ -1,0 +1,13 @@
+entities:
+- name: multilingual_text
+  namespace: laplacian.common
+
+  properties:
+  {{#each language_code_list as |code| ~}}
+  - name: "{{lower-snake code.value}}"
+    description: In {{code.label}}
+    type: string
+    optional: true
+    default_value: |
+      en ?: ""
+  {{/each}}

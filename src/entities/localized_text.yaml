@@ -1,0 +1,12 @@
+entities:
+- namespace: laplacian.common
+  name: localized_text
+  value_object: true
+
+  properties:
+  - name: language
+    type: string
+    domain_type_name: language
+
+  - name: content
+    type: string
