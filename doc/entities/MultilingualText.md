@@ -72,7 +72,7 @@ In Armenian
   en ?: ""
   ```
 
-### as: `String`
+### lang_as: `String`
 In Assamese
 - **Default Value:**
   ```kotlin
@@ -478,7 +478,7 @@ In Hungarian
   en ?: ""
   ```
 
-### is: `String`
+### lang_is: `String`
 In Icelandic
 - **Default Value:**
   ```kotlin
@@ -828,7 +828,7 @@ In Nepali
   en ?: ""
   ```
 
-### false: `String`
+### no: `String`
 In Norwegian
 - **Default Value:**
   ```kotlin

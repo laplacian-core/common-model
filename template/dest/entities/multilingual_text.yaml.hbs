@@ -4,7 +4,12 @@ entities:
 
   properties:
   {{#each language_code_list as |code| ~}}
-  - name: "{{lower-snake code.value}}"
+  {{define "code_name"
+    (if (eq code.value "as") "lang_as"
+      (if (eq code.value "is") "lang_is" code.value)
+    )
+  }}
+  - name: "{{lower-snake code_name}}"
     description: In {{code.label}}
     type: string
     optional: true

@@ -238,7 +238,7 @@ language_code_list:
 - label: Nepali
   value: ne
 - label: Norwegian
-  value: no
+  value: 'no'
 - label: Norwegian bokmål
   value: nb
 - label: Norwegian nynorsk
