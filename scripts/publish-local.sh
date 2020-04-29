@@ -19,6 +19,7 @@ DEST_DIR="$PROJECT_BASE_DIR/dest"
 main() {
   generate
   publish
+  clean
 }
 
 ## @generate-function@ ##
@@ -107,5 +108,9 @@ publishing {
 EOF
 }
 ## @publish-function@ ##
+
+clean() {
+  rm -f $GRADLE_BUILD_FILE $GRADLE_SETTINGS_FILE 2> /dev/null || true
+}
 
 main
