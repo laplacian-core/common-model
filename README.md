@@ -85,17 +85,15 @@ The following diagram summarizes the structure of the model:
 
 [src/entities/localized_text.yaml](<./src/entities/localized_text.yaml>)
 
-[src/entities/multilingual_text.yaml](<./src/entities/multilingual_text.yaml>)
-
 [src/entities/named_param.yml](<./src/entities/named_param.yml>)
 
 [src/entities/named_value.yml](<./src/entities/named_value.yml>)
 
 [src/value_domain_types/language.yaml](<./src/value_domain_types/language.yaml>)
 
-[template/src/entities/multilingual_text.yaml.hbs](<./template/src/entities/multilingual_text.yaml.hbs>)
+[template/dest/entities/multilingual_text.yaml.hbs](<./template/dest/entities/multilingual_text.yaml.hbs>)
 
-[template/src/value_domain_types/language.yaml.hbs](<./template/src/value_domain_types/language.yaml.hbs>)
+[template/dest/value_domain_types/language.yaml.hbs](<./template/dest/value_domain_types/language.yaml.hbs>)
 
 
 

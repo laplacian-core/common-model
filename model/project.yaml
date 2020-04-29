@@ -10,4 +10,4 @@ project:
     url: https://github.com/nabla-squared/laplacian.common-model.git
     branch: master
   model_files:
-  - src/
+  - dest/
