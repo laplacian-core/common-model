@@ -9,9 +9,15 @@ Some value objects and mixins which can be applicable to any domain models.
 
 <!-- @toc@ -->
 ## Table of contents
+- [概要](#概要)
+
+  * [モデル概要](#モデル概要)
+
 - [使用方法](#使用方法)
 
 - [インデックス](#インデックス)
+
+  * [エンティティ一覧](#エンティティ一覧)
 
   * [スクリプト一覧](#スクリプト一覧)
 
@@ -22,6 +28,15 @@ Some value objects and mixins which can be applicable to any domain models.
 <!-- @toc@ -->
 
 <!-- @main-content@ -->
+## 概要
+
+
+### モデル概要
+
+
+以下の図は、このモジュールに含まれる各エンティティの内容とそれらの間の関係を表しています。
+![](./doc/image/model-diagram.svg)
+
 ## 使用方法
 
 この modelモジュールを適用するには、プロジェクト定義に以下のエントリを追加してください。
@@ -56,6 +71,17 @@ $ ./script/generate
 ## インデックス
 
 
+### エンティティ一覧
+
+
+- [**LocalizedText**](<./doc/entities/LocalizedText.md>)
+localized_text
+- [**MultilingualText**](<./doc/entities/MultilingualText.md>)
+multilingual_text
+- [**NamedParam**](<./doc/entities/NamedParam.md>)
+named_param
+- [**NamedValue**](<./doc/entities/NamedValue.md>)
+named_value
 ### スクリプト一覧
 
 
@@ -145,14 +171,8 @@ $ ./script/generate
 
 
 - [model/language_code_list.yaml](<./model/language_code_list.yaml>)
-- [model/project/document/document.yaml](<./model/project/document/document.yaml>)
-- [model/project/document/sections/index/script-list.yaml](<./model/project/document/sections/index/script-list.yaml>)
-- [model/project/document/sections/index/source-code-list.yaml](<./model/project/document/sections/index/source-code-list.yaml>)
-- [model/project/document/sections/usage.yaml](<./model/project/document/sections/usage.yaml>)
-- [model/project/document/sections.yaml](<./model/project/document/sections.yaml>)
 - [model/project/scripts/generate.yaml](<./model/project/scripts/generate.yaml>)
 - [model/project/scripts/publish-local.yaml](<./model/project/scripts/publish-local.yaml>)
-- [model/project/sources.yaml](<./model/project/sources.yaml>)
 - [model/project.yaml](<./model/project.yaml>)
 - [src/entities/localized_text.yaml](<./src/entities/localized_text.yaml>)
 - [src/entities/named_param.yml](<./src/entities/named_param.yml>)

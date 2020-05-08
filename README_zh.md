@@ -9,9 +9,15 @@ Some value objects and mixins which can be applicable to any domain models.
 
 <!-- @toc@ -->
 ## Table of contents
+- [概述](#概述)
+
+  * [模式概述](#模式概述)
+
 - [如何使用](#如何使用)
 
 - [索引](#索引)
+
+  * [实体清单](#实体清单)
 
   * [命令列表](#命令列表)
 
@@ -22,6 +28,15 @@ Some value objects and mixins which can be applicable to any domain models.
 <!-- @toc@ -->
 
 <!-- @main-content@ -->
+## 概述
+
+
+### 模式概述
+
+
+下面的图表显示了本模块所包含的每个实体的内容以及它们之间的关系。
+![](./doc/image/model-diagram.svg)
+
 ## 如何使用
 
 要应用此model模块，请在项目定义中加入以下条目
@@ -57,6 +72,17 @@ $ ./script/generate
 ## 索引
 
 
+### 实体清单
+
+
+- [**LocalizedText**](<./doc/entities/LocalizedText.md>)
+localized_text
+- [**MultilingualText**](<./doc/entities/MultilingualText.md>)
+multilingual_text
+- [**NamedParam**](<./doc/entities/NamedParam.md>)
+named_param
+- [**NamedValue**](<./doc/entities/NamedValue.md>)
+named_value
 ### 命令列表
 
 
@@ -145,14 +171,8 @@ $ ./script/generate
 
 
 - [model/language_code_list.yaml](<./model/language_code_list.yaml>)
-- [model/project/document/document.yaml](<./model/project/document/document.yaml>)
-- [model/project/document/sections/index/script-list.yaml](<./model/project/document/sections/index/script-list.yaml>)
-- [model/project/document/sections/index/source-code-list.yaml](<./model/project/document/sections/index/source-code-list.yaml>)
-- [model/project/document/sections/usage.yaml](<./model/project/document/sections/usage.yaml>)
-- [model/project/document/sections.yaml](<./model/project/document/sections.yaml>)
 - [model/project/scripts/generate.yaml](<./model/project/scripts/generate.yaml>)
 - [model/project/scripts/publish-local.yaml](<./model/project/scripts/publish-local.yaml>)
-- [model/project/sources.yaml](<./model/project/sources.yaml>)
 - [model/project.yaml](<./model/project.yaml>)
 - [src/entities/localized_text.yaml](<./src/entities/localized_text.yaml>)
 - [src/entities/named_param.yml](<./src/entities/named_param.yml>)

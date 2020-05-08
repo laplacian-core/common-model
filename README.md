@@ -9,9 +9,15 @@ Some value objects and mixins which can be applicable to any domain models.
 
 <!-- @toc@ -->
 ## Table of contents
+- [Overview](#overview)
+
+  * [Model overview](#model-overview)
+
 - [Usage](#usage)
 
 - [Index](#index)
+
+  * [Entity list](#entity-list)
 
   * [Script List](#script-list)
 
@@ -22,6 +28,16 @@ Some value objects and mixins which can be applicable to any domain models.
 <!-- @toc@ -->
 
 <!-- @main-content@ -->
+## Overview
+
+
+### Model overview
+
+
+The following diagram explains the entities included in this module and the relationship
+between them.
+![](./doc/image/model-diagram.svg)
+
 ## Usage
 
 To apply this Model module, add the following entry to your project definition.
@@ -54,6 +70,17 @@ $ ./script/generate
 ## Index
 
 
+### Entity list
+
+
+- [**LocalizedText**](<./doc/entities/LocalizedText.md>)
+localized_text
+- [**MultilingualText**](<./doc/entities/MultilingualText.md>)
+multilingual_text
+- [**NamedParam**](<./doc/entities/NamedParam.md>)
+named_param
+- [**NamedValue**](<./doc/entities/NamedValue.md>)
+named_value
 ### Script List
 
 
@@ -150,14 +177,8 @@ $ ./script/generate
 
 
 - [model/language_code_list.yaml](<./model/language_code_list.yaml>)
-- [model/project/document/document.yaml](<./model/project/document/document.yaml>)
-- [model/project/document/sections/index/script-list.yaml](<./model/project/document/sections/index/script-list.yaml>)
-- [model/project/document/sections/index/source-code-list.yaml](<./model/project/document/sections/index/source-code-list.yaml>)
-- [model/project/document/sections/usage.yaml](<./model/project/document/sections/usage.yaml>)
-- [model/project/document/sections.yaml](<./model/project/document/sections.yaml>)
 - [model/project/scripts/generate.yaml](<./model/project/scripts/generate.yaml>)
 - [model/project/scripts/publish-local.yaml](<./model/project/scripts/publish-local.yaml>)
-- [model/project/sources.yaml](<./model/project/sources.yaml>)
 - [model/project.yaml](<./model/project.yaml>)
 - [src/entities/localized_text.yaml](<./src/entities/localized_text.yaml>)
 - [src/entities/named_param.yml](<./src/entities/named_param.yml>)
