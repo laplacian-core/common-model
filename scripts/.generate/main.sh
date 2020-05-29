@@ -103,15 +103,15 @@ generate() {
     schema_option="--model-schema $(normalize_path 'model-schema-partial.json')"
   fi
   $generator_script ${VERBOSE:+'-v'} \
+    --plugin 'laplacian:laplacian.metamodel-plugin:1.0.0' \
     --plugin 'laplacian:laplacian.project.domain-model-plugin:1.0.0' \
     --plugin 'laplacian:laplacian.common-model-plugin:1.0.0' \
-    --plugin 'laplacian:laplacian.metamodel-plugin:1.0.0' \
     --template 'laplacian:laplacian.generator.project-template:1.0.0' \
     --template 'laplacian:laplacian.domain-model.project-template:1.0.0' \
     --model 'laplacian:laplacian.project.project-types:1.0.0' \
-    --model 'laplacian:laplacian.metamodel:1.0.0' \
-    --model 'laplacian:laplacian.common-model:1.0.0' \
     --model 'laplacian:laplacian.project.domain-model:1.0.0' \
+    --model 'laplacian:laplacian.common-model:1.0.0' \
+    --model 'laplacian:laplacian.metamodel:1.0.0' \
     $schema_option \
     --model-files $(normalize_path 'model/') \
     --model-files $(normalize_path 'dest/') \

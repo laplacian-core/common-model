@@ -46,9 +46,6 @@ project:
   - group: laplacian
     name: common-model
     version: '1.0.0'
-  - group: laplacian
-    name: project.domain-model
-    version: '1.0.0'
 END_FILE
 }
 

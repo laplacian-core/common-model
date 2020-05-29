@@ -14,10 +14,6 @@ project:
   source_repository:
     url: https://github.com/nabla-squared/laplacian.common-model.git
     branch: master
-  models:
-  - group: laplacian
-    name: project.domain-model
-    version: '1.0.0'
   module_repositories:
     local:
       ../../../mvn-repo
