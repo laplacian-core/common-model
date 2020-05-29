@@ -73,7 +73,7 @@ update_file_index() {
   cat <<EOF > "$index_dir/sources.yaml"
 project:
   group: laplacian
-  name: common-model
+  name: common-model-plugin
   version: '1.0.0'
   sources:$(file_list | sort -d)
 EOF
@@ -107,14 +107,12 @@ generate() {
     --plugin 'laplacian:laplacian.common-model-plugin:1.0.0' \
     --plugin 'laplacian:laplacian.metamodel-plugin:1.0.0' \
     --template 'laplacian:laplacian.generator.project-template:1.0.0' \
-    --template 'laplacian:laplacian.domain-model.project-template:1.0.0' \
+    --template 'laplacian:laplacian.domain-model-plugin.project-template:1.0.0' \
     --model 'laplacian:laplacian.project.project-types:1.0.0' \
     --model 'laplacian:laplacian.metamodel:1.0.0' \
     --model 'laplacian:laplacian.common-model:1.0.0' \
-    --model 'laplacian:laplacian.project.domain-model:1.0.0' \
     $schema_option \
     --model-files $(normalize_path 'model/') \
-    --model-files $(normalize_path 'dest/') \
     --template-files $(normalize_path 'template/') \
     --target-dir "$NEXT_CONTENT_DIR_NAME" \
     --local-repo "$LOCAL_REPO_PATH"

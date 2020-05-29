@@ -1,0 +1,22 @@
+project:
+  group: laplacian
+  name: common-model-plugin
+  type: domain-model-plugin
+  namespace: laplacian.common
+  version: '1.0.0'
+  description:
+    en: |
+      A domain model plugin module for the common-model.
+    ja: |
+      common-model のドメインモデルプラグインモジュール
+    zh: |
+      common-model 域模型插件模块
+  module_repositories:
+    local:
+      ../../../../../mvn-repo
+    remote:
+    - https://github.com/nabla-squared/mvn-repo
+  models:
+  - group: laplacian
+    name: common-model
+    version: '1.0.0'

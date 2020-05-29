@@ -1,7 +1,7 @@
 <!-- @head-content@ -->
 # laplacian/common-model
 
-Some value objects and mixins which can be applicable to any domain models.
+定义了不特定于某一领域的普遍适用模型。
 
 
 *Read this in other languages*: [[English](README.md)] [[日本語](README_ja.md)]
@@ -86,6 +86,69 @@ named_value
 ### 命令列表
 
 
+- [./script/do-each-subproject.sh](<./scripts/do-each-subproject.sh>)
+
+  为每个子项目执行参数指定的命令。
+
+  例子:
+  ```console
+  $ ./scripts/null -c git status
+  ```
+
+  > Usage: do-each-subproject.sh [OPTION]...
+  >
+  > -h, --help
+  >
+  >   显示如何使用此命令。
+  >   
+  > -v, --verbose
+  >
+  >   显示更详细的命令执行信息。
+  >   
+  > -c, --continue-on-error
+  >
+  >   即使给定的命令在中间的一个子项目中失败，对其余的子项目执行该命令。
+  >   
+- [./script/generate-all.sh](<./scripts/generate-all.sh>)
+
+  生成项目中的资源，包括子项目。
+
+  > Usage: generate-all.sh [OPTION]...
+  >
+  > -h, --help
+  >
+  >   显示如何使用此命令。
+  >   
+  > -v, --verbose
+  >
+  >   显示更详细的命令执行信息。
+  >   
+  > -c, --continue-on-error
+  >
+  >   即使给定的命令在中间的一个子项目中失败，对其余的子项目执行该命令。
+  >   
+- [./script/generate-common-model-plugin.sh](<./scripts/generate-common-model-plugin.sh>)
+
+  在下面的目录中生成[laplacian/common-model-plugin](<null>)项目，作为子项目。
+  ```
+  subprojects/laplacian.common-model-plugin
+  ```
+  如果子项目已经存在，则更新子项目的内容。
+
+  > Usage: generate-common-model-plugin.sh [OPTION]...
+  >
+  > -h, --help
+  >
+  >   显示如何使用此命令。
+  >   
+  > -v, --verbose
+  >
+  >   显示更详细的命令执行信息。
+  >   
+  > -c, --clean
+  >
+  >   删除子项目的所有本地资源，并对其进行再生。
+  >   
 - [./script/generate.sh](<./scripts/generate.sh>)
 
   生成本项目中每个`src/` `model/` `template/`目录下的资源。
@@ -145,6 +208,29 @@ named_value
   >
   >   当`model/` `template/`目录的内容在生成过程中被更新时，递归执行的次数上限。
   >    (Default: 10)
+- [./script/git-each-subproject.sh](<./scripts/git-each-subproject.sh>)
+
+  执行参数为每个子项目指定的git子命令。
+
+  例子:
+  ```console
+  $ ./scripts/null -c status
+  ```
+
+  > Usage: git-each-subproject.sh [OPTION]...
+  >
+  > -h, --help
+  >
+  >   显示如何使用此命令。
+  >   
+  > -v, --verbose
+  >
+  >   显示更详细的命令执行信息。
+  >   
+  > -c, --continue-on-error
+  >
+  >   即使给定的命令在中间的一个子项目中失败，对其余的子项目执行该命令。
+  >   
 - [./script/publish-local.sh](<./scripts/publish-local.sh>)
 
   项目中的资源生成后，在`./dest`目录下的资源作为模型模块建立，并在本地资源库中注册。
@@ -167,18 +253,30 @@ named_value
   >
   >   这个选项与[generate.sh](<./scripts/generate.sh>)中的同名选项相同。
   >   
+- [./script/publish-local-common-model-plugin.sh](<./scripts/publish-local-common-model-plugin.sh>)
+
+  为[laplacian/common-model-plugin](<null>)子项目生成资源。
+
+  > Usage: publish-local-common-model-plugin.sh [OPTION]...
+  >
+  > -h, --help
+  >
+  >   显示如何使用此命令。
+  >   
+  > -v, --verbose
+  >
+  >   显示更详细的命令执行信息。
+  >   
 ### 源码列表
 
 
 - [model/language_code_list.yaml](<./model/language_code_list.yaml>)
-- [model/project/scripts/generate.yaml](<./model/project/scripts/generate.yaml>)
-- [model/project/scripts/publish-local.yaml](<./model/project/scripts/publish-local.yaml>)
 - [model/project.yaml](<./model/project.yaml>)
 - [src/entities/localized_text.yaml](<./src/entities/localized_text.yaml>)
 - [src/entities/named_param.yml](<./src/entities/named_param.yml>)
 - [src/entities/named_value.yml](<./src/entities/named_value.yml>)
 - [template/dest/entities/multilingual_text.yaml.hbs](<./template/dest/entities/multilingual_text.yaml.hbs>)
-- [template/dest/value_domain_types/language.yaml.hbs](<./template/dest/value_domain_types/language.yaml.hbs>)
+- [template/dest/value_domain_types/language_code.yaml.hbs](<./template/dest/value_domain_types/language_code.yaml.hbs>)
 
 
 <!-- @main-content@ -->
