@@ -212,6 +212,11 @@ named_value
   >   when the contents of the `model/` `template/` directory are updated
   >   during the generation process.
   >    (Default: 10)
+  > , --local-module-repository [VALUE]
+  >
+  >   The repository path to store locally built modules.
+  >   The modules in this repository have the highest priority.
+  >   
 - [./script/git-each-subproject.sh](<./scripts/git-each-subproject.sh>)
 
   Executes the git sub-command specified by the argument for each subproject.
@@ -258,6 +263,11 @@ named_value
   > , --skip-generation
   >
   >   This option is the same as the option of the same name in [generate.sh](<./scripts/generate.sh>).
+  >   
+  > , --local-module-repository [VALUE]
+  >
+  >   The path to the local repository where the built module will be stored.
+  >   If the repository does not exist in the specified path, it will be created automatically.
   >   
 - [./script/publish-local-common-model-plugin.sh](<./scripts/publish-local-common-model-plugin.sh>)
 

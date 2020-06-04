@@ -72,9 +72,6 @@ update_file_index() {
   mkdir -p $index_dir
   cat <<EOF > "$index_dir/sources.yaml"
 project:
-  group: laplacian
-  name: common-model-plugin
-  version: '1.0.0'
   sources:$(file_list | sort -d)
 EOF
 }
@@ -95,6 +92,7 @@ file_list() {
 }
 
 generate() {
+  LOCAL_MODULE_REPOSITORY=${LOCAL_MODULE_REPOSITORY:-"$PROJECT_BASE_DIR/../../../../../mvn-repo"}
   local generator_script="$PROJECT_BASE_DIR/scripts/laplacian-generate.sh"
   local schema_file_path="$(normalize_path 'model-schema-partial.json')"
   local schema_option=
@@ -103,19 +101,20 @@ generate() {
     schema_option="--model-schema $(normalize_path 'model-schema-partial.json')"
   fi
   $generator_script ${VERBOSE:+'-v'} \
+    --plugin 'laplacian:laplacian.metamodel-plugin:1.0.0' \
     --plugin 'laplacian:laplacian.project.domain-model-plugin:1.0.0' \
     --plugin 'laplacian:laplacian.common-model-plugin:1.0.0' \
-    --plugin 'laplacian:laplacian.metamodel-plugin:1.0.0' \
     --template 'laplacian:laplacian.generator.project-template:1.0.0' \
     --template 'laplacian:laplacian.domain-model-plugin.project-template:1.0.0' \
     --model 'laplacian:laplacian.project.project-types:1.0.0' \
-    --model 'laplacian:laplacian.metamodel:1.0.0' \
+    --model 'laplacian:laplacian.project.domain-model:1.0.0' \
     --model 'laplacian:laplacian.common-model:1.0.0' \
+    --model 'laplacian:laplacian.metamodel:1.0.0' \
     $schema_option \
     --model-files $(normalize_path 'model/') \
     --template-files $(normalize_path 'template/') \
     --target-dir "$NEXT_CONTENT_DIR_NAME" \
-    --local-repo "$LOCAL_REPO_PATH"
+    --local-repo "$LOCAL_MODULE_REPOSITORY"
 }
 
 has_settled() {

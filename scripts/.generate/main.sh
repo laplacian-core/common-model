@@ -72,9 +72,6 @@ update_file_index() {
   mkdir -p $index_dir
   cat <<EOF > "$index_dir/sources.yaml"
 project:
-  group: laplacian
-  name: common-model
-  version: '1.0.0'
   sources:$(file_list | sort -d)
 EOF
 }
@@ -95,6 +92,7 @@ file_list() {
 }
 
 generate() {
+  LOCAL_MODULE_REPOSITORY=${LOCAL_MODULE_REPOSITORY:-"$PROJECT_BASE_DIR/../../../mvn-repo"}
   local generator_script="$PROJECT_BASE_DIR/scripts/laplacian-generate.sh"
   local schema_file_path="$(normalize_path 'model-schema-partial.json')"
   local schema_option=
@@ -117,7 +115,7 @@ generate() {
     --model-files $(normalize_path 'dest/') \
     --template-files $(normalize_path 'template/') \
     --target-dir "$NEXT_CONTENT_DIR_NAME" \
-    --local-repo "$LOCAL_REPO_PATH"
+    --local-repo "$LOCAL_MODULE_REPOSITORY"
 }
 
 has_settled() {

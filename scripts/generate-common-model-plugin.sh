@@ -4,7 +4,6 @@ PROJECT_BASE_DIR=$(cd $"${BASH_SOURCE%/*}/../" && pwd)
 
 SCRIPT_BASE_DIR="$PROJECT_BASE_DIR/scripts"
 
-LOCAL_REPO_PATH="$PROJECT_BASE_DIR/../../../mvn-repo"
 
 OPT_NAMES='hvc-:'
 
@@ -47,8 +46,8 @@ parse_args() {
 }
 
 show_usage () {
-cat << END
-Usage: $(basename "$0") [OPTION]...
+cat << 'END'
+Usage: ./scripts/generate-common-model-plugin.sh [OPTION]...
   -h, --help
     Displays how to use this command.
   -v, --verbose
