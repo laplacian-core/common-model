@@ -131,7 +131,7 @@ named_value
 
   在下面的目录中生成[laplacian/common-model-plugin](<null>)项目，作为子项目。
   ```
-  subprojects/laplacian.common-model-plugin
+  subprojects/common-model-plugin
   ```
   如果子项目已经存在，则更新子项目的内容。
 
@@ -212,6 +212,11 @@ named_value
   >
   >   存储本地构建的模块的存储库路径。
   >   这个存储库中的模块具有最高优先级。
+  >   
+  > , --updates-scripts-only
+  >
+  >   仅更新脚本文件。
+  >   这个选项在项目初始生成时用于生成生成器脚本本身。
   >   
 - [./script/git-each-subproject.sh](<./scripts/git-each-subproject.sh>)
 

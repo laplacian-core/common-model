@@ -129,7 +129,7 @@ named_value
 
   Generates the [laplacian/common-model-plugin](<null>) project as a subproject in the following directory.
   ```
-  subprojects/laplacian.common-model-plugin
+  subprojects/common-model-plugin
   ```
   If the subproject already exists, the content of the subproject is updated.
 
@@ -216,6 +216,12 @@ named_value
   >
   >   The repository path to store locally built modules.
   >   The modules in this repository have the highest priority.
+  >   
+  > , --updates-scripts-only
+  >
+  >   Updates script files only.
+  >   This option is used to generate the generator script itself
+  >   when the project is initially generated.
   >   
 - [./script/git-each-subproject.sh](<./scripts/git-each-subproject.sh>)
 

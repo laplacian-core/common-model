@@ -130,7 +130,7 @@ named_value
 
   [laplacian/common-model-plugin](<null>)プロジェクトをサブプロジェクトとして下記のディレクトリに生成します。
   ```
-  subprojects/laplacian.common-model-plugin
+  subprojects/common-model-plugin
   ```
   すでにそのサブプロジェクトが存在する場合はその内容を更新します。
 
@@ -210,7 +210,12 @@ named_value
   > , --local-module-repository [VALUE]
   >
   >   ローカルでビルドされたモジュールを格納するリポジトリのパス。
-  >   ここに存在するモジュールが最優先で参照される。
+  >   ここに存在するモジュールが最優先で参照されます。
+  >   
+  > , --updates-scripts-only
+  >
+  >   スクリプトファイルのみを更新の対象とします。
+  >   プロジェクトを初期生成する際、自動生成スクリプト自体を初回作成する場合などに指定します。
   >   
 - [./script/git-each-subproject.sh](<./scripts/git-each-subproject.sh>)
 

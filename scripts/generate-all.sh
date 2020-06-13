@@ -13,12 +13,22 @@ VERBOSE=
 CONTINUE_ON_ERROR=
 
 
-run_generate_all() {
-  parse_args "$@"
-  ! [ -z $VERBOSE ] && set -x
-  ! [ -z $HELP ] && show_usage && exit 0
-  main
+SCRIPTS='generate-laplacian-common-model-plugin
+'
+
+main() {
+  $PROJECT_BASE_DIR/scripts/generate
+  for script in $SCRIPTS
+  do
+    echo "
+    === $script ===
+    "
+    $PROJECT_BASE_DIR/scripts/$script
+  done
 }
+
+# @additional-declarations@
+# @additional-declarations@
 
 parse_args() {
   while getopts $OPT_NAMES OPTION;
@@ -57,5 +67,8 @@ Usage: ./scripts/generate-all.sh [OPTION]...
 END
 }
 
-source $SCRIPT_BASE_DIR/.generate-all/main.sh
-run_generate_all "$@"
+parse_args "$@"
+
+! [ -z $VERBOSE ] && set -x
+! [ -z $HELP ] && show_usage && exit 0
+main
