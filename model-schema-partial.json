@@ -1811,8 +1811,7 @@
         "description": "エンティティ",
         "type": "object",
         "required": [
-          "name",
-          "namespace"
+          "name"
         ],
         "additionalProperties": false,
         "properties": {
