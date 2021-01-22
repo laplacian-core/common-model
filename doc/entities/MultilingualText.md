@@ -1,7 +1,7 @@
 # **MultilingualText**
 **namespace:** laplacian.common
 
-multilingual_text
+An entity describing a multilingual_text.
 
 
 

@@ -1,7 +1,7 @@
 # **NamedParam**
 **namespace:** laplacian.common
 
-named_param
+An entity describing a named_param.
 
 
 

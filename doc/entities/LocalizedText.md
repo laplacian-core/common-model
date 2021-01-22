@@ -1,7 +1,7 @@
 # **LocalizedText**
 **namespace:** laplacian.common
 
-localized_text
+An entity describing a localized_text.
 
 
 

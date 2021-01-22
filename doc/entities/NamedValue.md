@@ -1,7 +1,7 @@
 # **NamedValue**
 **namespace:** laplacian.common
 
-named_value
+An entity describing a named_value.
 
 
 

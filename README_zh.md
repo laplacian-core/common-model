@@ -76,13 +76,13 @@ $ ./script/generate
 
 
 - [**LocalizedText**](<./doc/entities/LocalizedText.md>)
-localized_text
+An entity describing a localized_text.
 - [**MultilingualText**](<./doc/entities/MultilingualText.md>)
-multilingual_text
+An entity describing a multilingual_text.
 - [**NamedParam**](<./doc/entities/NamedParam.md>)
-named_param
+An entity describing a named_param.
 - [**NamedValue**](<./doc/entities/NamedValue.md>)
-named_value
+An entity describing a named_value.
 ### 命令列表
 
 
